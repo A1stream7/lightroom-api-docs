@@ -14,5 +14,5 @@ function checkJobStatus(href, clientId, token) {
   return request(options)
 }
 
-const imsUri = const autoToneUrl = `${config.services.adobeIms}/authorize/v1`
+const imsUri = autoToneUrl = `${config.services.adobeIms}/authorize/v1`
 const status = await checkJobStatus(imsUri, options.apiKey, options.token);

@@ -28,12 +28,12 @@ async function main () {
     const body = {
       inputs: {
         href: inputFile,
-        storage: 'external'
+        storage: 'adobe'
       },
       outputs: [
         {
           href: outputFile,
-          storage: 'external'
+          storage: 'adobe'
         }
       ]
     }
